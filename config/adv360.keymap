@@ -143,14 +143,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-
         default_layer {
             bindings = <
-                &dollar_tilde    &plus_n1   &left_bracket_n2   &left_brace_n3   &left_parenthesis_n4   &ampersand_n5       &tog 1                                                      &mo 3       &equal_n6   &right_parenthesis_n7   &right_brace_n8   &right_bracket_n9     &asterisk_n0   &exclamation_percent
-                &kp TAB          &kp SEMI   &kp COMMA          &kp DOT          &kp P                  &kp Y               &none                                                       &none       &kp F       &kp G                   &kp C             &kp R                 &kp L          &kp SLASH
-                &kp ESC          &kp A      &kp O              &kp E            &kp U                  &kp I               &mo 2      &kp LCTRL   &kp LALT     &kp RALT     &kp RCTRL  &mo 2       &kp D       &kp H                   &kp T             &kp N                 &kp S          &kp MINUS
-                &kp LSHIFT       &kp SQT    &kp Q              &kp J            &kp K                  &kp X                                      &kp LGUI     &kp RGUI                            &kp B       &kp M                   &kp W             &kp V                 &kp Z          &kp RSHIFT
-                &kp HOME         &kp CAPS   &backslash_hash    &at_sign_caret   &pipe_grave                                &kp BSPC   &mo 1       &kp DEL      &caps_word   &kp ENTER  &kp SPACE               &kp LEFT                &kp DOWN          &kp UP                &kp RIGHT      &kp END
+                &kp GRAVE          &kp N1     &kp N2             &kp N3           &kp N4                 &kp N5              &tog 1                                                      &mo 3       &kp N6      &kp N7                  &kp N8            &kp N9                &kp N0         &kp EQUAL
+                &kp TAB            &kp SEMI   &kp COMMA          &kp DOT          &kp P                  &kp Y               &none                                                       &none       &kp F       &kp G                   &kp C             &kp R                 &kp L          &kp SLASH
+                &kp ESC            &kp A      &kp O              &kp E            &kp U                  &kp I               &mo 2      &kp LCTRL   &kp LALT     &kp RALT     &kp RCTRL  &mo 2       &kp D       &kp H                   &kp T             &kp N                 &kp S          &kp MINUS
+                &kp LSHIFT         &kp SQT    &kp Q              &kp J            &kp K                  &kp X                                      &kp LGUI     &kp RGUI                            &kp B       &kp M                   &kp W             &kp V                 &kp Z          &kp RSHIFT
+                &kp HOME           &kp CAPS   &kp BSLH           &kp LBKT         &kp RBKT                                   &kp BSPC   &mo 1       &kp DEL      &caps_word   &kp ENTER  &kp SPACE               &kp LEFT                &kp DOWN          &kp UP                &kp RIGHT      &kp END
             >;
         };
 
