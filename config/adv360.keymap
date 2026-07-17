@@ -147,10 +147,9 @@
             bindings = <
                 &kp GRAVE        &kp N1     &kp N2          &kp N3              &kp N4                 &kp N5              &tog 1                                                      &mo 3       &kp N6      &kp N7                  &kp N8            &kp N9                &kp N0         &kp EQUAL
                 &kp TAB          &kp B      &kp L           &kp D               &kp W                  &kp V               &none                                                       &none       &kp Z       &kp Y                   &kp O             &kp U                 &kp COMMA      &kp SEMI
-                &kp ESC          &kp N      &kp R           &kp T               &kp S                  &kp G               &mo 2      &kp LCTRL   &kp LALT     &kp RALT     &kp RCTRL  &mo 2       &kp P       &kp H                   &kp E             &kp A                 &kp I          &kp MINUS
+                &kp ESC          &kp N      &kp R           &kp T               &kp S                  &kp G               &mo 2      &kp LCTRL   &kp LALT     &kp RALT     &kp RCTRL  &mo 2       &kp P       &kp H                   &kp A             &kp E                 &kp I          &kp MINUS
                 &kp LSHIFT       &kp Q      &kp X           &kp M               &kp C                  &kp J                                      &kp LGUI     &kp RGUI                            &kp K       &kp F                   &kp SQT           &kp DOT               &kp SLASH      &kp RSHIFT
-                &kp PG_UP        &kp CAPS   &kp BACKSLASH   &kp LEFT_BRACKET    &kp RIGHT_BRACKET                          &kp BSPC   &mo 1       &kp DEL      &caps_word   &kp ENTER  &kp SPACE               &kp LEFT                &kp DOWN          &kp UP                &kp RIGHT      &kp PG_DN
-
+                &kp HOME         &kp CAPS   &kp BACKSLASH   &kp LEFT_BRACKET    &kp RIGHT_BRACKET                          &kp BSPC   &mo 1       &kp DEL      &caps_word   &kp ENTER  &kp SPACE               &kp LEFT                &kp DOWN          &kp UP                &kp RIGHT      &kp END
             >;
         };
 
