@@ -183,11 +183,13 @@
             >;
         };
         symbols_mod {
+            bindings = <
             &trans  &trans     &trans    &trans    &trans     &trans     &trans                                      &trans  &trans     &trans     &trans     &trans    &trans     &trans
             &trans  &kp EXCL   &kp AT    &kp HASH  &kp DLLR   &kp PRCNT  &trans                                      &trans  &kp EQUAL  &kp LBRC   &kp RBRC   &kp PLUS  &kp DQT    &trans
             &trans  &kp CARET  &kp AMPS  &kp STAR  &kp PIPE   &kp BSLH   &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS  &kp LPAR   &kp RPAR   &kp COLON &kp SQT    &trans
             &trans  &kp TILDE  &kp LT    &kp GT    &kp QMARK  &kp SLASH                  &trans      &trans                  &kp UNDER  &kp LBKT   &kp RBKT   &kp SEMI  &kp COMMA  &trans
             &trans  &trans     &trans    &trans    &trans                &trans  &trans  &trans      &trans  &trans  &trans             &trans     &trans     &trans    &trans     &trans
-        }
+            >;
+        };
     };
 };
